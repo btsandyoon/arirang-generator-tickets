@@ -71,15 +71,15 @@ function generarTicket(){
         ctx.fillStyle = "#ffffff";
         ctx.fillText(
             nombre.value.toUpperCase(),
-            390,
-            1367
+            490,
+            1460
         );
 
         ctx.fillStyle = "#ff0055";
         ctx.fillText(
             ciudad.value.toUpperCase(),
-            340,
-            1455
+            490,
+            1550
         );
 
 
@@ -99,16 +99,16 @@ function generarTicket(){
         ctx.fillStyle = "#ff0055";
         ctx.fillText(
             fechaTexto,
-            340,
-            1524
+            490,
+            1625
         );
 
 
         ctx.fillStyle = "#ff0055";
         ctx.fillText(
             cancion.value.toUpperCase(),
-            340,
-            1594
+            490,
+            1700
         );
 
 
