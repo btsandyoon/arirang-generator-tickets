@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tickettheme.css">
+    <title> btsandyoon Arirang Web </title>
+    <script src="ticket.js" defer></script>
+</head>
+<body>
+
+    <h1>BTS WORLD TOUR TICKET</h1>
+    <h2> Generador por <a class="subtitulo" href="https://www.instagram.com/btsandyoon/" target="_blank"> btsandyoon </a> </h2>
+    
+    <div class="miembros">
+    
+    <button class="member-btn" data-member="rm">
+    <img src="assets/thumbs/rmicon.png">
+    <span>RM</span>
+    </button>
+    
+    <button class="member-btn" data-member="jin">
+    <img src="assets/thumbs/jinicon.png">
+    <span>JIN</span>
+    </button>
+    
+    <button class="member-btn" data-member="suga">
+    <img src="assets/thumbs/sugaicon.png">
+    <span>SUGA</span>
+    </button>
+    
+    <button class="member-btn" data-member="jhope">
+    <img src="assets/thumbs/jhopeicon.png">
+    <span>J-HOPE</span>
+    </button>
+    
+    <button class="member-btn" data-member="jimin">
+    <img src="assets/thumbs/jiminicon.png">
+    <span>JIMIN</span>
+    </button>
+    
+    <button class="member-btn" data-member="v">
+    <img src="assets/thumbs/vicon.png">
+    <span>V</span>
+    </button>
+    
+    <button class="member-btn" data-member="jungkook">
+    <img src="assets/thumbs/jkicon.png">
+    <span>JUNGKOOK</span>
+    </button>
+    
+    </div>
+
+    
+    
+    <div class="formulario">
+    
+    <input
+    id="nombre"
+    maxlength="12"
+    placeholder="Nombre o Apodo">
+    
+    <input
+    id="ciudad"
+    maxlength="18"
+    placeholder="Ciudad">
+    
+    <input
+    id="cancion"
+    maxlength="20"
+    placeholder="Canción favorita">
+    
+    <input
+    id="fecha"
+    type="date">
+    
+    </div>
+    
+    <div class="ticket-container">
+
+        <canvas
+        id="ticket"
+        width="1080"
+        height="1920">
+        </canvas>
+    
+        <button id="download">
+        Descargar PNG
+        </button>
+    
+    </div>
+    
+    <div class="advertencia">
+
+        <button id="idioma" class="idioma-btn">
+            🌐 Español
+        </button>
+
+        <h2>✦ PERMISOS DE USO ✦</h2>
+        <h4 data-es="¡Uso 100% libre de los boletos SIN dar crédito!"
+        data-en="Free use without giving any credits!">
+        <center>  ¡Uso 100% libre de los boletos SIN dar crédito! </center>
+        </h4>
+    
+        <ul class="permisos">
+    
+            <li data-es="🎟️ Permiso libre al 100% para su impresión y entrega como freebies"
+            data-en="🎟️ The printing of tickets to make freebies is a 100% allowed">
+            🪄 🎟️ Permiso libre al 100% para su impresión para entrega como freebies
+            </li>
+    
+            <li data-es="📱 Permiso 100% libre de hacer publicaciones, vídeos, TikToks y difundir en redes de la pagina + link de descarga SIN obligación de mencionar a la autora. "
+            data-en="📱 Free use for make post, videos and tiktoks about the page without the obligation on tagging the original author">
+            🪄 📱 Permiso 100% libre de hacer publicaciones, vídeos, TikToks y difundir en redes de la pagina + link de descarga <u> SIN obligación de mencionar a la autora. </u>
+            </li>
+    
+            <li data-es="💜 Haz tantos boletos como quieras para tí o amigxs"
+            data-en="💜 Create as much tickets as you want for you and your besties">
+            🪄 💜 Haz tantos boletos como quieras para tí o amigxs
+            </li>
+    
+            <li data-es="🚫 No retirar la marca de agua del ticket"
+            data-en="🚫 Please do not take off the watermark from the ticket">
+            🪄 🚫 No retirar la marca de agua del ticket
+            </li>
+
+            <li>
+                <a class="reportar" href="https://www.instagram.com/btsandyoon/" target="_blank">
+                    🚨 ¿Tienes un problema o duda? ¡Manda un mensaje aquí!
+                </a>
+            </li>
+    
+        </ul>
+    
+    
+        <div class="copyright">
+    
+            <p>
+            © Advertencia de Copyright:
+            </p>
+    
+            <p>
+            Queda prohibido el plagio del codigo de la pagina y la venta de estos boletos a terceros
+            mediante tiendas online o físicas. Este material está
+            protegido por la ley de derechos de autor de la Unión Europea.
+            </p>
+            <p> 
+            En caso de uso comercial no autorizado se realizará una denuncia
+            en la plataforma correspondiente.
+            </p>
+            <p>
+            Página creada por btsandyoon en instagram ♡
+            </p>
+
+
+            <p class="english"> <b> ENGLISH: </b> The plagirism of the website code and the sale of these tickets to third parties are completly forbidden
+                through online or physical shopping sites. This material is
+                protected by the European Union copyright law. In case of non-authorized comercial use, the site will be reported to the corresponding social network. 🚫 </p>
+    
+            <p> 
+    
+        </div>
+    
+    </div>
+
+    <script src="ticket.js" defer></script>
+    
+    
+    </body>
+</html>
