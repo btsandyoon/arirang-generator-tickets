@@ -7,7 +7,6 @@ const ciudad = document.getElementById("ciudad");
 const cancion = document.getElementById("cancion");
 const fecha = document.getElementById("fecha");
 
-
 let miembroActual = "jin";
 
 
